@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um pequeno espaço para compartilhar ideias, estudos e projetos.">
+  <title>Meu espaço • Início</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="container cabecalho">
+    <a class="marca" href="./index.html"><span class="simbolo" aria-hidden="true">✳</span> meu espaço<span class="ponto">.</span></a>
+    <nav aria-label="Menu principal"><a href="#sobre">Sobre</a><a href="#projetos">Projetos</a><button id="tema" type="button" aria-label="Ativar tema escuro" aria-pressed="false">Tema escuro</button></nav>
+  </header>
+  <main id="conteudo" class="container">
+    <section class="hero" aria-labelledby="titulo">
+      <span class="etiqueta"><span aria-hidden="true">●</span> UM CANTINHO NA INTERNET</span>
+      <h1 id="titulo">Grandes ideias.<br>Pequenos <span>começos.</span></h1>
+      <p>Olá! Este é meu espaço para compartilhar o que estou criando, aprendendo e descobrindo pelo caminho.</p>
+      <a class="botao" href="#projetos">Conheça os projetos <span aria-hidden="true">↗</span></a>
+      <div class="nota"><span aria-hidden="true">✦</span> Feito com curiosidade e algumas linhas de código.</div>
+    </section>
+    <section id="sobre" class="sobre" aria-labelledby="titulo-sobre">
+      <div><span class="numero">01 / SOBRE</span><h2 id="titulo-sobre">Sempre aprendendo.<br>Sempre criando.</h2></div>
+      <p>Este é um site de exemplo. Troque este texto por uma apresentação sua: quem você é, o que gosta de fazer e quais ideias quer tirar do papel.</p>
+    </section>
+    <section id="projetos" class="projetos" aria-labelledby="titulo-projetos">
+      <div class="secao-topo"><div><span class="numero">02 / PROJETOS</span><h2 id="titulo-projetos">Ideias em construção</h2></div><span class="legenda">Um passo de cada vez.</span></div>
+      <div class="grade">
+        <article class="cartao"><span class="icone" aria-hidden="true">&lt;/&gt;</span><span class="tag">EXEMPLO 01</span><h3>Meu primeiro site</h3><p>Um espaço simples na web para reunir ideias e praticar HTML, CSS e JavaScript.</p><span class="estado">Em construção</span></article>
+        <article class="cartao"><span class="icone" aria-hidden="true">✎</span><span class="tag">EXEMPLO 02</span><h3>Caderno de estudos</h3><p>Anotações, descobertas e pequenos aprendizados que merecem ser compartilhados.</p><span class="estado">Em planejamento</span></article>
+        <article class="cartao"><span class="icone" aria-hidden="true">✧</span><span class="tag">EXEMPLO 03</span><h3>A próxima ideia</h3><p>Todo projeto começa com uma pergunta: e se eu tentasse fazer isso?</p><span class="estado">Em planejamento</span></article>
+      </div>
+    </section>
+    <aside class="convite"><span aria-hidden="true">✳</span><div><h2>O próximo capítulo começa aqui.</h2><p>Este espaço pode ganhar a sua cara. Edite os arquivos e faça acontecer.</p></div><a href="#titulo" aria-label="Voltar ao início">↑</a></aside>
+  </main>
+  <footer class="container"><span>© <span id="ano">2026</span> Meu espaço.</span><span>Feito com HTML, CSS e JavaScript.</span></footer>
+</body>
+</html>
